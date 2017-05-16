@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Ica Pickup Service</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="style1.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+            <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+            <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+
+<body>
+    <div id="topbar">
+        <a href="ica_pickup.html">
+            <ul class="nav justify-content-begginning" id="loogin"> <img src="bilder/flex.png" id="logo"></a>
+        <li class="nav-item" id="listhover"> <a class="nav-link active" id="hem" href="ica_pickup.html">Hem</a> </li>
+        <li class="nav-item" id="listhover"> <a class="nav-link" id="matvaror" href="matvaror.html">Matvaror</a> </li>
+        <li class="nav-item" id="listhover"> <a class="nav-link" id="tjanster" href="butiker.html">Flex-butiker</a> </li>
+        <li class="nav-item" id="listhover"> <a class="nav-link" id="hjalp" href="hjalp.html">Hjälp</a> </li>
+        <li class="nav-item" id="loginin">
+            <a href="#"> <img id="cart" src="bilder/cart.png"> </a>
+        </li>
+        <li class="nav-item" id="login">
+            <a href="login.php">
+                <button type="button" class="btn btn-primary">Logga in!</button>
+            </a>
+        </li>
+        </ul>
+    </div>
+    <!-- This is where all the food categories are shown to the user wich is easily chosen with wide pictures for an easy use. -->
+    <div id="alfakontainer">
+        <nav class="navbar navbar-toggleable-md navbar-light bg-faded" id="blobabo">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"> <span class="navbar-toggler-icon"></span> </button> <a class="navbar-brand">Sök på livsmedelsvaror</a>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="text" placeholder="">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Sök...</button>
+                </form>
+            </div>
+        </nav>
+        <div class="kontainer">
+            <div class="card" id="ko">
+                <a href="kott.html" id="farg">
+                    <div class="card" id="stilkolumn"> <img id="kolumn1" class="card-img-top" src="bilder/k%C3%B6tt.jpg" alt="kött">
+                        <div class="card-block">
+                            <h4 class="card-title">Kött</h4> </div>
+                </a>
+                </div>
+            </div>
+            <div class="card" id="ko">
+                <a href="ica_pickup.html" id="farg">
+                    <div class="card" id="stilkolumn"> <img id="kolumn1" class="card-img-top" src="bilder/gr%C3%B6nsaker.jpg" alt="grönsaker">
+                        <div class="card-block">
+                            <h4 class="card-title">Grönsaker</h4> </div>
+                </a>
+                </div>
+            </div>
+            <div class="card" id="ko">
+                <a href="ica_pickup.html" id="farg">
+                    <div class="card" id="stilkolumn"> <img id="kolumn1" class="card-img-top" src="bilder/mejeriprod.jpg" alt="mejeri">
+                        <div class="card-block">
+                            <h4 class="card-title">Mejerivaror</h4> </div>
+                </a>
+                </div>
+            </div>
+            <div class="card" id="ko">
+                <a href="ica_pickup.html" id="farg">
+                    <div class="card" id="stilkolumn"> <img id="kolumn1" class="card-img-top" src="bilder/godis.jpg" alt="godis">
+                        <div class="card-block">
+                            <h4 class="card-title">Godis</h4> </div>
+                </a>
+                </div>
+            </div>
+            <div class="card" id="ko">
+                <a href="ica_pickup.html" id="farg">
+                    <div class="card" id="stilkolumn"> <img id="kolumn1" class="card-img-top" src="bilder/bakprodukter.png" alt="bakprodukter">
+                        <div class="card-block">
+                            <h4 class="card-title">Bakprodukter</h4> </div>
+                </a>
+                </div>
+            </div>
+            <div class="card" id="ko">
+                <a href="ica_pickup.html" id="farg">
+                    <div class="card" id="stilkolumn"> <img id="kolumn1" class="card-img-top" src="bilder/tv%C3%A5l.jpg" alt="kropp">
+                        <div class="card-block">
+                            <h4 class="card-title">Kropp</h4> </div>
+                </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</body>
+
+</html>
